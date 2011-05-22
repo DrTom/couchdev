@@ -1,0 +1,118 @@
+.wikistyle {
+  background-color: #f8f8f8;
+  padding: 0.7em; }
+
+a {
+  color: #4183c4;
+  text-decoration: none; }
+  a.absent {
+    color: #aa0000; }
+
+blockquote {
+  margin: 1em 0;
+  border-left: 5px solid #dddddd;
+  padding-left: 0.6em;
+  color: #555555; }
+
+body {
+  width: 920px;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  display: block;
+  font: 13.34px helvetica, arial, freesans, clean, sans-serif;
+  border: 1px solid #e9e9e9;
+  background-color: white;
+  line-height: 1.4em; }
+
+code {
+  font-size: 12px;
+  background-color: #f8f8ff;
+  color: #444444;
+  padding: 0 0.2em;
+  border: 1px solid #dedede; }
+
+dd {
+  margin-left: 2em;
+  margin-bottom: 1em; }
+
+dt {
+  font-weight: bold;
+  margin-left: 1em; }
+
+h1 {
+  font-size: 170%;
+  border-top: 4px solid #aaaaaa;
+  padding-top: 0.5em;
+  margin-top: 1.5em; }
+  h1:first-child {
+    margin-top: 0;
+    padding-top: 0.25em;
+    border-top: none; }
+
+h2 {
+  font-size: 150%;
+  margin-top: 1.5em;
+  border-top: 4px solid #e0e0e0;
+  padding-top: 0.5em; }
+
+h3 {
+  margin-top: 1em; }
+
+img {
+  max-width: 100%; }
+
+ol {
+  list-style-type: decimal;
+  margin: 1em 0 1em 2em; }
+
+#wiki-form .content-body ol {
+  margin: 1em 0 1em 2em; }
+
+pre {
+  margin: 1em 0;
+  font-size: 12px;
+  background-color: #f8f8ff;
+  border: 1px solid #dedede;
+  padding: 0.5em;
+  line-height: 1.5em;
+  color: #444444;
+  overflow: auto; }
+  pre code {
+    padding: 0;
+    font-size: 12px;
+    background-color: #f8f8ff;
+    border: none; }
+  pre.console {
+    margin: 1em 0;
+    font-size: 12px;
+    background-color: black;
+    padding: 0.5em;
+    line-height: 1.5em;
+    color: white; }
+    pre.console code {
+      padding: 0;
+      font-size: 12px;
+      background-color: black;
+      border: none;
+      color: white; }
+    pre.console span {
+      color: #888888; }
+      pre.console span.command {
+        color: yellow; }
+
+p {
+  margin: 1em 0;
+  line-height: 1.5em; }
+
+table {
+  margin: 1em 0; }
+  table td {
+    border-bottom: 1px solid #dddddd;
+    padding: 0.2em 1em; }
+  table th {
+    border-bottom: 1px solid #bbbbbb;
+    padding: 0.2em 1em; }
+
+ul, #wiki-form .content-body ul {
+  margin: 1em 0 1em 2em; }

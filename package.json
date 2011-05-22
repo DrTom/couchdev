@@ -1,0 +1,34 @@
+{ "author" : 
+    { "email" : "DrTom@schank.ch"
+    , "name" : "Thomas Schank"
+    , "url" : "http://Dr.Th.Schank.ch/"
+    } 
+, "bin" : 
+    { "couchdev" : "./bin/couchdev"
+    } 
+, "dependencies" : 
+    { "jsonprettify" : "*"
+    , "opts" : "*"
+    , "request" : "*"
+    , "drtoms-nodehelpers" : "*"
+    , "underscore" : "*"
+    , "watch" : "*"
+    } 
+, "description" : "A utility and lean framework for creating and developing CouchDB based applications."
+, "directories" : 
+    { "bin" : "./bin"
+    , "lib" : "./lib"
+    , "vendor" : "./vendor"
+    } 
+, "engines" : 
+    [ "node >= 0.4.0"
+    ] 
+, "main" : "lib/couchdev"
+, "name" : "couchdev"
+, "tags" : 
+    [ "coffescript"
+    , "couchdb"
+    , "webframework"
+    ] 
+, "version" : "1.0.0beta"
+} 

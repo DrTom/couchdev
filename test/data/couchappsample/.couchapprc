@@ -1,0 +1,6 @@
+{ "env": 
+  { "default": 
+    { "db": "http://localhost:5984/test-couchdev-pull-couchapppush"
+    }
+  }
+}

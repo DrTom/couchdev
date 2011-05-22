@@ -34,7 +34,7 @@ doc = {
 
 getRevDoc = (fun) ->
   couchdb = HTTP.createClient 5984, "localhost"
-  request = couchdb.request 'GET', '/test/_design/test2/'
+  request = couchdb.request 'GET', '/test-simple-push/_design/app/'
   request.on 'response', (response) ->
     print "############### HTTP Response:"
     print  "STATUS: " + response.statusCode
@@ -79,19 +79,18 @@ push = () ->
 
   print "######### HEADER"
   print  h
-  req = {uri: 'http://admin:test@localhost:5984/test/_design/test2', method:'PUT', body: JSON.stringify(doc), headers: h}
+  req = {uri: 'http://admin:test@localhost:5984/test_simple-push/_design/app', method:'PUT', body: JSON.stringify(doc), headers: h}
 
   print "######### REQ"
   print req
 
   print "######### Go"
 
-  request req, (err,resp,body) ->
+  request req, (err,resp,body)->
     print "########"
-    print err
-    print resp
-    print body
-
-
-# TODO send it
+    if err?
+      print err
+    else
+      print resp
+      print body
 
